@@ -1,11 +1,10 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Obstacle
 {
     public class ObstecalsManager : MonoBehaviour
     {
-        [FormerlySerializedAs("obstecalGameobject")] [SerializeField] private GameObject obstacleGameobject;
+        [SerializeField] private GameObject obstacleGameobject;
         [SerializeField] private float interval;
         [SerializeField] private Vector3 initPosition;
 

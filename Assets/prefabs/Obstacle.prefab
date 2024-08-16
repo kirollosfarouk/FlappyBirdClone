@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 4906961287343761959}
   - component: {fileID: 5075130421730878433}
   m_Layer: 6
-  m_Name: Obstecal
+  m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
