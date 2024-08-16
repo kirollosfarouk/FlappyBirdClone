@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BirdMovements : MonoBehaviour
@@ -10,7 +8,7 @@ public class BirdMovements : MonoBehaviour
 
     void Update()
     {
-        if (birdRigidbody != null && Input.GetMouseButtonUp(0))
+        if (birdRigidbody && Input.GetMouseButtonUp(0))
         {
             birdRigidbody.AddForce(Vector2.up * force);
         }

@@ -1,21 +1,17 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts
 {
     public class GameManager : MonoBehaviour
     {
-
         // Use this for initialization
         void Start()
         {
-          
         }
 
         // Update is called once per frame
         void Update()
         {
-
         }
     }
 }
