@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class BirdMovements : MonoBehaviour
+namespace Bird
 {
-    [SerializeField] private Rigidbody2D birdRigidbody;
-    [SerializeField] private float force;
-
-
-    void Update()
+    public class BirdMovements : MonoBehaviour
     {
-        if (birdRigidbody && Input.GetMouseButtonUp(0))
+        [SerializeField] private Rigidbody2D birdRigidbody;
+        [SerializeField] private float force;
+
+
+        void Update()
         {
-            birdRigidbody.AddForce(Vector2.up * force);
+            if (birdRigidbody && Input.GetMouseButtonUp(0))
+            {
+                birdRigidbody.AddForce(Vector2.up * force);
+            }
         }
     }
 }

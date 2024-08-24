@@ -20,8 +20,9 @@ namespace Obstacle
 
             _timeSinceLastObstacle = interval;
 
-            var obstacle = Instantiate(obstacleGameobject, initPosition, Quaternion.identity).GetComponent<global::Obstacle.Obstacle>();
-        
+            var obstacle = Instantiate(obstacleGameobject, initPosition, Quaternion.identity)
+                .GetComponent<global::Obstacle.Obstacle>();
+
             obstacle.InitializeObstacle(5);
         }
     }
